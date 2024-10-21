@@ -1,7 +1,7 @@
 
 # Credit Card Fraud Detection with XGBoost
 
-This project implements a machine learning model to detect fraudulent credit card transactions using the `XGBClassifier` algorithm. The model focuses on achieving high performance in detecting fraud (Class 1) by tuning class weights and decision thresholds through cross-validation.
+This project implements a machine learning model to detect fraudulent credit card transactions using the `XGBoost` algorithm. The model focuses on achieving high performance in detecting fraud (Class 1) by tuning class weights and decision thresholds through cross-validation.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -13,7 +13,7 @@ This project implements a machine learning model to detect fraudulent credit car
 - [Conclusion](#conclusion)
 
 ## Overview
-The goal of this project is to build a robust machine learning model capable of detecting fraudulent credit card transactions with high precision and recall. The `XGBClassifier` model is trained on a balanced dataset (with a downsampled ratio of 10:1 for non-fraud to fraud cases), and evaluated using metrics such as F1-score, Precision, and Recall, with a particular focus on the fraud class.
+The goal of this project is to build a robust machine learning model capable of detecting fraudulent credit card transactions with high precision and recall. The `XGBoost` model is trained on a balanced dataset (with a downsampled ratio of 10:1 for non-fraud to fraud cases), and evaluated using metrics such as F1-score, Precision, and Recall, with a particular focus on the fraud class.
 
 Key features of this implementation include:
 - Class weight tuning to address class imbalance.
@@ -54,7 +54,7 @@ The dataset is preprocessed as follows:
 - Downsampling is performed to create a balanced dataset with a non-fraud to fraud ratio of 10:1.
 
 ### Model Selection
-We use the `XGBClassifier` model and tune it using cross-validation with the following parameters:
+We use the `XGBoost` model and tune it using cross-validation with the following parameters:
 - **Class Weights:** Tested values range from 2.01 to 2.51 to address class imbalance.
 - **Decision Thresholds:** Custom thresholds ranging from 0.495 to 0.505 are tested to improve fraud classification.
 
@@ -110,7 +110,7 @@ Ensure you have the dataset (`creditcard.csv`) in the `./data/` folder before ru
 ├── data/                     # Folder for the dataset
 ├── models/                   # Saved models and checkpoints
 ├── plots/                    # Output plots for evaluation
-├── credit-card-fraud-detection-by-ml-xgbclassifiers.ipynb         # Main script to run the project
+├── credit-card-fraud-detection-by-ml-xgboost.ipynb         # Main script to run the project
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project description
 ```
@@ -129,4 +129,4 @@ The project includes various visualizations for model performance:
 
 ## Conclusion
 
-This project demonstrates the effectiveness of using the `XGBClassifier` with class weight tuning and threshold optimization for detecting fraudulent transactions. The model achieves high precision and recall, making it suitable for real-world applications where fraud detection is critical.
+This project demonstrates the effectiveness of using the `XGBoost` with class weight tuning and threshold optimization for detecting fraudulent transactions. The model achieves high precision and recall, making it suitable for real-world applications where fraud detection is critical.
