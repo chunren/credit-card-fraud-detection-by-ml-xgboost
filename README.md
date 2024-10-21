@@ -35,9 +35,9 @@ To run this project, you'll need the following libraries:
 
 You can install the required packages using the following command:
 
-\`\`\`bash
+```bash
 pip install numpy pandas matplotlib seaborn xgboost scikit-learn tqdm psutil
-\`\`\`
+```
 
 ## Dataset
 The dataset used in this project is the [Kaggle Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud). It contains transactions made by credit cards in September 2013 by European cardholders.
