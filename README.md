@@ -102,6 +102,30 @@ To run the model, you can execute the Jupyter notebook provided. The code is div
 
 Ensure you have the dataset (`creditcard.csv`) in the `./data/` folder before running the notebook.
 
+## Project Structure
+
+```
+.
+├── data/                     # Folder for the dataset
+├── models/                   # Saved models and checkpoints
+├── plots/                    # Output plots for evaluation
+├── credit-card-fraud-detection-by-neural-network.ipynb         # Main script to run the project
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project description
+```
+
+## Visualization
+
+The project includes various visualizations for model performance:
+
+- **Confusion Matrix**
+- **ROC Curve**
+- **Precision-Recall Curve**
+- **Correlation Heatmap** for feature relationships
+
+![Performance Diagrams](./plots/performance-diagrams.png)
+![Correlation Heatmap](./plots/Correlation-Heatmap-of-Features.png)
+
 ## Conclusion
 
 This project demonstrates the effectiveness of using the `XGBClassifier` with class weight tuning and threshold optimization for detecting fraudulent transactions. The model achieves high precision and recall, making it suitable for real-world applications where fraud detection is critical.
