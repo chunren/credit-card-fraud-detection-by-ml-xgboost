@@ -109,7 +109,7 @@ Ensure you have the dataset (`creditcard.csv`) in the `./data/` folder before ru
 ├── data/                     # Folder for the dataset
 ├── models/                   # Saved models and checkpoints
 ├── plots/                    # Output plots for evaluation
-├── credit-card-fraud-detection-by-neural-network.ipynb         # Main script to run the project
+├── credit-card-fraud-detection-by-ml-xgbclassifiers.ipynb         # Main script to run the project
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project description
 ```
