@@ -33,11 +33,12 @@ To run this project, you'll need the following libraries:
 - tqdm (for progress bar)
 - psutil (for CPU management)
 
-You can install the required packages using the following command:
+Ensure you have Python 3.10 installed, and then run:
 
 ```bash
-pip install numpy pandas matplotlib seaborn xgboost scikit-learn tqdm psutil
+   pip install -r requirements.txt
 ```
+   
 
 ## Dataset
 The dataset used in this project is the [Kaggle Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud). It contains transactions made by credit cards in September 2013 by European cardholders.
