@@ -2,6 +2,41 @@
 data/creditcard.csv
 tuning/tuning_results.txt
 
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter Notebook metadata files
+*.ipynb~
+*.ipynb.lock
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore large data files (if applicable)
+*.h5
+*.csv
+*.xls
+*.xlsx
+
+# Ignore system-generated log files
+*.log
+
+# Ignore pip dependency files
+pip-log.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
